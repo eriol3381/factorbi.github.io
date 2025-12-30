@@ -1,0 +1,7 @@
+.sl-main-content a {
+    text-decoration: none;
+}
+
+.sl-main-content a:hover {
+    text-decoration: underline;
+}
