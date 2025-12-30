@@ -15,7 +15,7 @@ IMPORTANT NOTICE: If you are planning to use Bipost Sync for production you may 
 
 **If you don't have an AWS Account please proceed:**
 
-1.  Create an AWS Account here [aws.amazon.com](http://aws.amazon.com)
+1.  Create an AWS Account here <a href="http://aws.amazon.com" target="_blank">aws.amazon.com</a>
     ![Create an AWS Account](../../assets/img/Create_an_AWS_Account.png)
 
 2.  AWS usually makes an automated verification phone call, we suggest to provide a land line.
@@ -35,7 +35,7 @@ Need Help? [--> Write us.](mailto:info@factorbi.com)
 Logged in to AWS Account:
 
 1.  Upper right corner of your AWS console, click your account name (or follow next link).
-2.  [My Security Credentials.](https://console.aws.amazon.com/iam/home#/security_credential)
+2.  <a href="https://console.aws.amazon.com/iam/home#/security_credential" target="_blank">My Security Credentials.</a>
 3.  Click *Continue to Security Credentials* if dialog appears.
 4.  Expand Account Identifiers.
 5.  Copy AWS Account ID (12-digit) and Canonical User ID (64-digit).
@@ -48,7 +48,7 @@ Logged in to AWS Account:
 
 ## Step 3: Closest AWS Region
 
-**[cloudping.info](http://cloudping.info)**
+**<a href="http://cloudping.info" target="_blank">cloudping.info</a>**
 
 *   Click the above link and hit **HTTP Ping** and look for the lowest latency.
 *   Maybe you want to try this at different times of the day.
@@ -64,21 +64,21 @@ Based on the result from previous step, click the icon that is the closest Regio
 
 | AWS Region                | Short name     |                                                                                                                                                                                 |
 | ------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| US East (N. Virginia)     | us-east-1      | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| US East (Ohio)            | us-east-2      | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| US West (California)      | us-west-1      | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| US West (Oregon)          | us-west-2      | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| Canada (Central)          | ca-central-1   | <a href="https://console.aws.amazon.com/cloudformation/home?region=ca-central-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| Europe (Ireland)          | eu-west-1      | <a href="https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| Europe (London)           | eu-west-2      | <a href="https://console.aws.amazon.com/cloudformation/home?region=eu-west-2#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| Europe (Frankfurt)        | eu-central-1   | <a href="https://console.aws.amazon.com/cloudformation/home?region=eu-central-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| Europe (Paris)            | eu-west-3      | <a href="https://console.aws.amazon.com/cloudformation/home?region=eu-west-3#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| Asia Pacific (Mumbai)     | ap-south-1     | <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-south-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| Asia Pacific (Seoul)      | ap-northeast-2 | <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-northeast-2#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| Asia Pacific (Singapore)  | ap-southeast-1 | <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| Asia Pacific (Sydney)     | ap-southeast-2 | <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| Asia Pacific (Tokyo)      | ap-northeast-1 | <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
-| South America (São Paulo) | sa-east-1      | <a href="https://console.aws.amazon.com/cloudformation/home?region=sa-east-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../../assets/img/launch-stack.png" /></a> |
+| US East (N. Virginia)     | us-east-1      | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| US East (Ohio)            | us-east-2      | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| US West (California)      | us-west-1      | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| US West (Oregon)          | us-west-2      | <a href="https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| Canada (Central)          | ca-central-1   | <a href="https://console.aws.amazon.com/cloudformation/home?region=ca-central-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| Europe (Ireland)          | eu-west-1      | <a href="https://console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| Europe (London)           | eu-west-2      | <a href="https://console.aws.amazon.com/cloudformation/home?region=eu-west-2#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| Europe (Frankfurt)        | eu-central-1   | <a href="https://console.aws.amazon.com/cloudformation/home?region=eu-central-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| Europe (Paris)            | eu-west-3      | <a href="https://console.aws.amazon.com/cloudformation/home?region=eu-west-3#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| Asia Pacific (Mumbai)     | ap-south-1     | <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-south-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| Asia Pacific (Seoul)      | ap-northeast-2 | <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-northeast-2#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| Asia Pacific (Singapore)  | ap-southeast-1 | <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| Asia Pacific (Sydney)     | ap-southeast-2 | <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| Asia Pacific (Tokyo)      | ap-northeast-1 | <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-northeast-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
+| South America (São Paulo) | sa-east-1      | <a href="https://console.aws.amazon.com/cloudformation/home?region=sa-east-1#/stacks/new?stackName=Production&templateURL=https://s3.amazonaws.com/bipost-cloudformation/Aurora-RDS-bipost.template" target="_blank"><img alt="cloudformation-launch-button" src="../src/assets/img/launch-stack.png" /></a> |
 
 ### 4.1. Select Template
 
@@ -135,7 +135,7 @@ Based on the result from previous step, click the icon that is the closest Regio
 
 ## Step 5: Add Role to Cluster
 
-1.  Open [RDS console.](https://console.aws.amazon.com/rds/)
+1.  Open <a href="https://console.aws.amazon.com/rds/" target="_blank">RDS console.</a>
 2.  Click **Databases** on left pane.
 3.  Click DB identifier Role **Regional**.
 4.  Scroll down to section **Manage IAM roles.**
@@ -148,7 +148,7 @@ Based on the result from previous step, click the icon that is the closest Regio
 
 ## Step 6: Test MySQL Connection
 
-1.  [Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/) and install on your machine.
+1.  <a href="https://dev.mysql.com/downloads/workbench/" target="_blank">Download MySQL Workbench</a> and install on your machine.
 2.  Open MySQL Workbench and setup a new connection.
     ![Workbench New MySQL Connection Menu](../../assets/img/new-MySQL-connection.png)
 3.  Copy and paste from the **Outputs** tab (Step 4.5):

@@ -20,7 +20,7 @@ Created to keep your Windows databases on-premises while providing a way to extr
 
 **Destination:**
 
-*   [Amazon Aurora MySQL](https://aws.amazon.com/rds/aurora/details/mysql-details/)
+*   <a href="https://aws.amazon.com/rds/aurora/details/mysql-details/" target="_blank">Amazon Aurora MySQL</a>
 
     > ![Powered by AWS](../../assets/img/powered-by-aws.png)
 
@@ -33,7 +33,7 @@ Deployed on AWS to scale at demand. Software as a Service (SaaS).
 ## Use Cases
 
 *   Consolidate/merge information on AWS from across multiple locations and database engines, e.g. consolidate sales, inventory and financial information from several branches.
-*   Build a Data Warehouse and make Analytics and Business Intelligence dashboards using [Google Data Studio](https://marketingplatform.google.com/about/data-studio/) or [AWS QuickSight](https://aws.amazon.com/quicksight/), with native connection to Aurora-MySQL.
+*   Build a Data Warehouse and make Analytics and Business Intelligence dashboards using <a href="https://marketingplatform.google.com/about/data-studio/" target="_blank">Google Data Studio</a> or <a href="https://aws.amazon.com/quicksight/" target="_blank">AWS QuickSight</a>, with native connection to Aurora-MySQL.
 *   Make forecasts and statistical analysis with AWS services.
 *   Extend your on-prem ERP & POS to AWS cloud and build web applications & back-end services.
 *   Push data from AWS to on-prem systems.
@@ -49,7 +49,7 @@ Deployed on AWS to scale at demand. Software as a Service (SaaS).
 *   Run manually or automatically with a Windows Task schedule.
 *   Upload big datasets using Recursive Sync.
 
-> Data is also available as CSV files on S3 so you can use other AWS services like [Amazon Athena](https://aws.amazon.com/athena/) and [AWS Glue](https://aws.amazon.com/glue/) to build your data lake.
+> Data is also available as CSV files on S3 so you can use other AWS services like <a href="https://aws.amazon.com/athena/" target="_blank">Amazon Athena</a> and <a href="https://aws.amazon.com/glue/" target="_blank">AWS Glue</a> to build your data lake.
 
 ### Two-way synchronization
 
@@ -76,7 +76,7 @@ Each RDS Aurora instance loads data by accessing a dedicated bucket, exclusive t
 
 ![Synchronization Architecture](../../assets/img/Bipost_Architecture.png)
 
-[Aurora](https://aws.amazon.com/rds/aurora/) is a MySQL compatible, fully managed database service built for the cloud with the performance and scalability of high-end commercial databases at 1/10th the cost.
+<a href="https://aws.amazon.com/rds/aurora/" target="_blank">Aurora</a> is a MySQL compatible, fully managed database service built for the cloud with the performance and scalability of high-end commercial databases at 1/10th the cost.
 
 ---
 
@@ -94,27 +94,33 @@ Or email us: [info@factorbi.com](mailto:info@factorbi.com)
 
 ## Prices
 
-Pricing here: [www.factorbi.com](https://www.factorbi.com/database-synchronization)
+Pricing here: <a href="https://www.factorbi.com/database-synchronization" target="_blank">www.factorbi.com</a>
 
-Firebird Community, [Members to Members Offer available.](https://www.firebirdsql.org/en/member-to-member-offers/)
+Firebird Community, <a href="https://www.firebirdsql.org/en/member-to-member-offers/" target="_blank">Members to Members Offer available.</a>
 
-Members of [Comunidad AWS en Español](https://aws-spanish.slack.com), ask for special deal.
+Members of <a href="https://aws-spanish.slack.com" target="_blank">Comunidad AWS en Español</a>, ask for special deal.
 
 ---
 
 ## On The Media
 
-[A journey from on-premises to Cloud Business Intelligence](https://medium.com/@jaiment/a-journey-from-on-premises-to-cloud-business-intelligence-12a1eedcd191)
+<a href="https://medium.com/@jaiment/a-journey-from-on-premises-to-cloud-business-intelligence-12a1eedcd191" target="_blank">A journey from on-premises to Cloud Business Intelligence</a>
 
-> [![A Lego figure sits on the floor below a shoe, which threatens to crush it](../../assets/img/0_wxuQcdoKDEB52uyA.jpeg)](https://medium.com/@jaiment/a-journey-from-on-premises-to-cloud-business-intelligence-12a1eedcd191)
+> <a href="https://medium.com/@jaiment/a-journey-from-on-premises-to-cloud-business-intelligence-12a1eedcd191" target="_blank">
+> <img src="../src/assets/img/0_wxuQcdoKDEB52uyA.jpeg" alt="A Lego figure sits on the floor below a shoe, which threatens to crush it">
+</a>
 
-[Why we dropped Microsoft Power BI and embraced AWS QuickSight](https://medium.com/@jaiment/why-we-dropped-microsoft-power-bi-and-embraced-aws-quicksight-a64fb0816ead)
+<a href="https://medium.com/@jaiment/why-we-dropped-microsoft-power-bi-and-embraced-aws-quicksight-a64fb0816ead" target="_blank">Why we dropped Microsoft Power BI and embraced AWS QuickSight</a>
 
-> [![QuickSight screen shot](../../assets/img/1_HduiyvAIefXDDvZvle30Vg.png)](https://medium.com/@jaiment/why-we-dropped-microsoft-power-bi-and-embraced-aws-quicksight-a64fb0816ead)
+> <a href="https://medium.com/@jaiment/why-we-dropped-microsoft-power-bi-and-embraced-aws-quicksight-a64fb0816ead" target="_blank">
+> <img src="../src/assets/img/1_HduiyvAIefXDDvZvle30Vg.png" alt="QuickSight screen shot">
+</a>
 
-[At AWS re:Invent 2017](https://youtu.be/dprtSTSbCEE?t=10m41s)
+<a href="https://youtu.be/dprtSTSbCEE?t=10m41s" target="_blank">At AWS re:Invent 2017</a>
 
-> [![Factor BI At re:Invent 2017](../../assets/img/At-AWS-reInvent-2017.png)](https://youtu.be/dprtSTSbCEE?t=10m41s)
+> <a href="https://youtu.be/dprtSTSbCEE?t=10m41s" target="_blank">
+> <img src="../src/assets/img/At-AWS-reInvent-2017.png" alt="Factor BI At re:Invent 2017">
+</a>
 
 ---
 
@@ -190,5 +196,5 @@ We are always happy to hear about you.
 
 *   Email: [info@factorbi.com](mailto:info@factorbi.com)
 *   Company page:
-    > 🇺🇸 English: [www.factorbi.com](https://www.factorbi.com/)
-    > 🇲🇽 Español: [www.factorbi.com](https://www.factorbi.com/?lang=es)
+    > 🇺🇸 English: <a href="https://www.factorbi.com/" target="_blank">www.factorbi.com</a>
+    > 🇲🇽 Español: <a href="https://www.factorbi.com/?lang=es" target="_blank">www.factorbi.com</a>

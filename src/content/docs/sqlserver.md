@@ -66,7 +66,7 @@ Continually export SQL Server data to AWS Aurora MySQL.
 
 *   Use only to upload historic data. It optimizes upload by extracting and uploading one day at a time for a given date range.
 *   Always use along with [customData.json](/customdatajson) so you can configure the date field to use for each table.
-*   **NOTE:** For daily sync, instead of using Recursive Sync, dynamically parse a date range into customData.json ==> [Examples here.](https://github.com/factorbi/bi-intelisis/blob/master/customData-examples.json)
+*   **NOTE:** For daily sync, instead of using Recursive Sync, dynamically parse a date range into customData.json ==> <a href="https://github.com/factorbi/bi-intelisis/blob/master/customData-examples.json" target="_blank">Examples here.</a>
 *   More info about this feature see [Recursive Synchronization](/customdatajson#recursive-synchronization)
 
 ## Tenant
@@ -123,7 +123,7 @@ If you are going to synchronize two or more databases from the same Windows host
 
 Many legacy and critical mission systems use Microsoft SQL Server.
 
-[Soft Restaurant](https://softrestaurant.com.mx/) and [Intelisis ERP](http://www.intelisis.com/) are examples of systems built with SQL Server. We have companies that use Bipost Sync + AWS to achieve sales & financial consolidation and enable cloud Business Intelligence with [Google Data Studio.](https://www.google.com/analytics/data-studio/)
+<a href="https://softrestaurant.com.mx/" target="_blank">Soft Restaurant</a> and <a href="http://www.intelisis.com/" target="_blank">Intelisis ERP</a> are examples of systems built with SQL Server. We have companies that use Bipost Sync + AWS to achieve sales & financial consolidation and enable cloud Business Intelligence with <a href="https://www.google.com/analytics/data-studio/" target="_blank">Google Data Studio.</a>
 
 ![SQL Server to MySQL Aurora Business Intelligence Use Case](../../assets/img/SQL-Server-to-MySQL-Aurora-Use-Case.png)
 

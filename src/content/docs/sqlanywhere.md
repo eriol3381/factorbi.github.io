@@ -59,7 +59,7 @@ Continually export Sybase SQL Anywhere data to AWS Aurora MySQL.
 
 *   Use only to upload historic data. It optimizes upload by extracting and uploading one day at a time for a given date range.
 *   Always use along with [customData.json](/customdatajson) so you can configure the date field to use for each table.
-*   **NOTE:** For daily sync, instead of using Recursive Sync, dynamically parse a date range into customData.json ==> [Examples here.](https://github.com/factorbi/bi-intelisis/blob/master/customData-examples.json)
+*   **NOTE:** For daily sync, instead of using Recursive Sync, dynamically parse a date range into customData.json ==> <a href="https://github.com/factorbi/bi-intelisis/blob/master/customData-examples.json" target="_blank">Examples here.</a>
 *   More info about this feature see [Recursive Synchronization](/customdatajson#recursive-synchronization)
 
 ## Tenant
@@ -114,15 +114,15 @@ If you are going to synchronize two or more databases from the same Windows host
 
 # Oracle Micros RES 3700 POS Business Intelligence Use Case
 
-[Oracle Hospitality](https://en.wikipedia.org/wiki/Micros_Systems) Point of Sale system works with SQL Anywhere database. You can daily export data from several restaurants and consolidate them on AWS at scale.
+<a href="https://en.wikipedia.org/wiki/Micros_Systems" target="_blank">Oracle Hospitality</a> Point of Sale system works with SQL Anywhere database. You can daily export data from several restaurants and consolidate them on AWS at scale.
 
-Make Micros POS reporting affordable at scale. Create KPI's, Dashboards and Business Intelligence analytics using [Google Data Studio](https://www.google.com/analytics/data-studio/) or [AWS QuickSight](https://aws.amazon.com/quicksight/).
+Make Micros POS reporting affordable at scale. Create KPI's, Dashboards and Business Intelligence analytics using <a href="https://www.google.com/analytics/data-studio/" target="_blank">Google Data Studio</a> or <a href="https://aws.amazon.com/quicksight/" target="_blank">AWS QuickSight</a>.
 
 ![Micros RES Cloud Consolidation](../../assets/img/Oracle-Micros-data-consolidation.png)
 
-[Oracle Micros RES database tables & documentation download.](https://s3.amazonaws.com/factorbi/3700SQL_Man.pdf)
+<a href="https://s3.amazonaws.com/factorbi/3700SQL_Man.pdf" target="_blank">Oracle Micros RES database tables & documentation download.</a>
 
-[Oracle Hospitality RES 3700 Installation Guide.](https://s3.amazonaws.com/factorbi/Oracle+Hospitality+RES+3700+Installation+Guide.pdf)
+<a href="https://s3.amazonaws.com/factorbi/Oracle+Hospitality+RES+3700+Installation+Guide.pdf" target="_blank">Oracle Hospitality RES 3700 Installation Guide.</a>
 
 > Keywords: Micros 3700 RES | Micros database files | Micros cloud reporting | merge multiple locations | Micros AWS | iAnywhere.Data.SQLAnywhere.v4.0.dll
 

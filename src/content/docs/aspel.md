@@ -13,15 +13,17 @@ Consolidamos también información de distintas sucursales que utilizan bases de
 
 Buscas un Business Intelligence? Escríbemos! [info@factorbi.com](mailto:info@factorbi.com)
 
-[www.factorbi.com](https://www.factorbi.com/?lang=es)
+<a href="https://www.factorbi.com/?lang=es" target="_blank">www.factorbi.com</a>
 
 ---
 
 ## Demo Business Intelligence
 
-[Tablero de Mando Aspel SAE](https://datastudio.google.com/open/1rLJVp6XI-JnVkBVOnkdooT3IAVzl_GKW)
+<a href="https://datastudio.google.com/open/1rLJVp6XI-JnVkBVOnkdooT3IAVzl_GKW" target="_blank">Tablero de Mando Aspel SAE</a>
 
-[![Tablero de Mando Aspel SAE](../../assets/img/Dashboard_Demo_1-torn.png)](https://datastudio.google.com/open/1rLJVp6XI-JnVkBVOnkdooT3IAVzl_GKW)
+<a href="https://datastudio.google.com/open/1rLJVp6XI-JnVkBVOnkdooT3IAVzl_GKW" target="_blank">
+<img src="../src/assets/img/Dashboard_Demo_1-torn.png" alt="Tablero de Mando Aspel SAE">
+</a>
 
 ---
 
@@ -35,7 +37,7 @@ Consolida información de Aspel de distintas razones sociales y sucursales que u
 
 ## Excel Tablas Aspel SAE
 
-<a href="http://bit.ly/tablas_aspel" target="_blank"><img alt="Excel tablas Aspel SAE" src="../../assets/img/excel-small.png" /></a> Abre aquí [**Excel tablas Aspel SAE.**](http://bit.ly/tablas_aspel)
+<a href="http://bit.ly/tablas_aspel" target="_blank"><img alt="Excel tablas Aspel SAE" src="../src/assets/img/excel-small.png" /></a> Abre aquí [**Excel tablas Aspel SAE.**](http://bit.ly/tablas_aspel)
 
 **NOTA:** La lista del link anterior puede no estar completa.
 

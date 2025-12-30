@@ -10,7 +10,7 @@ Every time Bipost Sync sends data to AWS it works along with an API that runs 4 
 ## 1. Create-Alter Schemas
 
 *   If it doesn't exist, database is created with:
-    *   Name: The one you specified on [Factor BI Console.](https://s3.amazonaws.com/biforms-prod/index.html)
+    *   Name: The one you specified on <a href="https://s3.amazonaws.com/biforms-prod/index.html" target="_blank">Factor BI Console.</a>
     *   Encoding: <span style="color:red">`cp1252 West European (latin1)`</span>
     *   Collation: <span style="color:red">`latin1_spanish_ci`</span>
 *   Tables are created with all the columns found on source db.
@@ -263,4 +263,4 @@ SELECT * FROM `bipost_system`.bipost_sync_table ORDER BY id DESC, rid LIMIT 100;
 
 ## More examples
 
-Check more transformation examples on [this repository.](https://github.com/factorbi/sync-examples/tree/master/mysql)
+Check more transformation examples on <a href="https://github.com/factorbi/sync-examples/tree/master/mysql" target="_blank">this repository.</a>

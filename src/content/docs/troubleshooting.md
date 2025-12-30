@@ -49,7 +49,7 @@ Create a policy to Allow to:
 
 ![Firewall policy to reach AWS S3](../../assets/img/FirewallAllowTo.png)
 
-AWS can have multiple IP addresses for S3 service, so in case the above IP's don't work check the [AWS Public IP Address Ranges documentation](https://aws.amazon.com/blogs/aws/aws-ip-ranges-json/) and look for
+AWS can have multiple IP addresses for S3 service, so in case the above IP's don't work check the <a href="https://aws.amazon.com/blogs/aws/aws-ip-ranges-json/" target="_blank">AWS Public IP Address Ranges documentation</a> and look for
 
 ```json
   "region": "GLOBAL",

@@ -60,7 +60,7 @@ Continually export MySQL On-Premises data to AWS Aurora MySQL.
 
 *   Use only to upload historic data. It optimizes upload by extracting and uploading one day at a time for a given date range.
 *   Always use along with [customData.json](/customdatajson) so you can configure the date field to use for each table.
-*   **NOTE:** For daily sync, instead of using Recursive Sync, dynamically parse a date range into customData.json ==> [Examples here.](https://github.com/factorbi/bi-intelisis/blob/master/customData-examples.json)
+*   **NOTE:** For daily sync, instead of using Recursive Sync, dynamically parse a date range into customData.json ==> <a href="https://github.com/factorbi/bi-intelisis/blob/master/customData-examples.json" target="_blank">Examples here.</a>
 *   More info about this feature see [Recursive Synchronization](/customdatajson#recursive-synchronization)
 
 ## Tenant

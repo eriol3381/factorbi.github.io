@@ -11,7 +11,7 @@ Integramos Microsip ERP con Amazon Web Services para crear tableros de mando, re
 
 Consolidamos también información de distintas sucursales que utilizan bases de datos separadas de Microsip, de razones sociales distintas y de la misma razón social (cuando no usas Replix).
 
-Buscas un Business Intelligence? Visitanos! [www.factorbi.com](https://www.factorbi.com/microsip?lang=es)
+Buscas un Business Intelligence? Visitanos! <a href="https://www.factorbi.com/microsip?lang=es" target="_blank">www.factorbi.com</a>
 
 Escríbemos y te ayudamos en lo que necesitas: [info@factorbi.com](mailto:info@factorbi.com)
 
@@ -27,17 +27,21 @@ Escríbemos y te ayudamos en lo que necesitas: [info@factorbi.com](mailto:info@f
 *   Origen y Aplicación de Recursos.
 *   Tableros Compras e Inventarios.
 
-[**Ver casos aquí.**](https://www.factorbi.com/microsip?lang=es)
+<a href="https://www.factorbi.com/microsip?lang=es" target="_blank">**Ver casos aquí.**</a>
 
 ---
 
 ## Demo Business Intelligence
 
-[Tablero de Mando Ventas Microsip](https://datastudio.google.com/reporting/1oMPdxgX1Gh-CQMRoTnxQct6j2rgycVnL)
+<a href="https://datastudio.google.com/reporting/1oMPdxgX1Gh-CQMRoTnxQct6j2rgycVnL" target="_blank">Tablero de Mando Ventas Microsip</a>
 
-[![Tablero de Mando Microsip ERP](../../assets/img/Tablero_Microsip_1.png)](https://datastudio.google.com/reporting/1oMPdxgX1Gh-CQMRoTnxQct6j2rgycVnL)
+<a href="https://datastudio.google.com/reporting/1oMPdxgX1Gh-CQMRoTnxQct6j2rgycVnL" target="_blank">
+<img src="../src/assets/img/Tablero_Microsip_1.png" alt="Tablero de Mando Microsip ERP">
+</a>
 
-[![Tablero de Mando Microsip ERP](../../assets/img/Tablero_Microsip_2.png)](https://datastudio.google.com/reporting/1oMPdxgX1Gh-CQMRoTnxQct6j2rgycVnL/page/UePF)
+<a href="https://datastudio.google.com/reporting/1oMPdxgX1Gh-CQMRoTnxQct6j2rgycVnL/page/UePF" target="_blank">
+<img src="../src/assets/img/Tablero_Microsip_2.png" alt="Tablero de Mando Microsip ERP">
+</a>
 
 ---
 
@@ -51,7 +55,7 @@ Consolida información de Microsip de distintas razones sociales y sucursales qu
 
 ## Excel Tablas Microsip
 
-<a href="http://bit.ly/tablas_microsip" target="_blank"><img alt="Excel tablas Microsip." src="../../assets/img/excel-small.png" /></a> Abre aquí [Excel tablas Microsip.](http://bit.ly/tablas_microsip)
+<a href="http://bit.ly/tablas_microsip" target="_blank"><img alt="Excel tablas Microsip." src="../src/assets/img/excel-small.png" /></a> Abre aquí <a href="http://bit.ly/tablas_microsip" target="_blank">Excel tablas Microsip.</a>
 
 **NOTA:** La lista del link anterior puede no estar completa.
 
@@ -69,7 +73,7 @@ order by rdb$relation_name;
 
 ## Descarga el Programa de Sincronización
 
-1.  [**Descarga aquí.**](https://s3.amazonaws.com/factorbi/bipost/biPost.zip)
+1.  <a href="https://s3.amazonaws.com/factorbi/bipost/biPost.zip" target="_blank">**Descarga aquí.**</a>
 2.  En tu servidor de Firebird crea una carpeta, por ejemplo **C:\Bipost\** y copia los archivos.
 
 ---
@@ -82,7 +86,7 @@ Si eres usuario de Microsip por favor envíanos un correo y nos pondremos en con
 
 #### 1. Llaves de sincronización
 
-Entra a la [Consola Factor BI](https://s3.amazonaws.com/biforms-prod/index.html) y en el menú **Service Numbers** copia **Service No.** y **Activation No.** que correspondan con la base de datos a sincronizar.
+Entra a la <a href="https://s3.amazonaws.com/biforms-prod/index.html" target="_blank">Consola Factor BI</a> y en el menú **Service Numbers** copia **Service No.** y **Activation No.** que correspondan con la base de datos a sincronizar.
 
 #### 2. Configura biPost
 
@@ -116,9 +120,9 @@ Oprime **Save Changes**.
 
 ## Descarga Archivos de Sincronización
 
-1.  [Descarga aquí.](https://s3.amazonaws.com/factorbi/microsip/customData-Microsip.zip)
-2.  Para visualizar correctamente los archivos recomendamos utilizar [Sublime Text.](https://www.sublimetext.com/)
-3.  Para validar un archivo JSON que modifiques, utiliza [JSONLint.](https://jsonlint.com/)
+1.  <a href="https://s3.amazonaws.com/factorbi/microsip/customData-Microsip.zip" target="_blank">Descarga aquí.</a>
+2.  Para visualizar correctamente los archivos recomendamos utilizar <a href="https://www.sublimetext.com/" target="_blank">Sublime Text.</a>
+3.  Para validar un archivo JSON que modifiques, utiliza <a href="https://jsonlint.com/" target="_blank">JSONLint.</a>
 
 ---
 

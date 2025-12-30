@@ -5,7 +5,7 @@ description: "Create your Factor BI Account and configure your first service."
 
 ## Create your Account
 
-Open **[Factor BI Console.](https://s3.amazonaws.com/biforms-prod/index.html)**
+Open **<a href="https://s3.amazonaws.com/biforms-prod/index.html" target="_blank">Factor BI Console.</a>**
 
 Click **Create Your Account** and follow steps.
 
@@ -17,7 +17,7 @@ Password must be at least 8 characters containing uppercase and lowercase letter
 
 ## Configure your first service
 
-1.  Log in to the [Console.](https://s3.amazonaws.com/biforms-prod/index.html)
+1.  Log in to the <a href="https://s3.amazonaws.com/biforms-prod/index.html" target="_blank">Console.</a>
 2.  On the left pane, go to **Service Numbers**, click **Edit** then **New**.
 3.  Edit **Database** and **Description**, then click **Edit** again to save.
 

@@ -22,31 +22,37 @@ We have the full solution for:
 
 Contact us: [info@factorbi.com](mailto:info@factorbi.com)
 
-[www.factorbi.com](https://www.factorbi.com/restaurants)
+<a href="https://www.factorbi.com/restaurants" target="_blank">www.factorbi.com</a>
 
 ---
 
 ## Business Intelligence Demo
 
-[POSitouch Business Intelligence Demo](https://datastudio.google.com/reporting/10DcPMQ3tHwrsny2R4GXwNP-AsRCTjBJp/)
+<a href="https://datastudio.google.com/reporting/10DcPMQ3tHwrsny2R4GXwNP-AsRCTjBJp/" target="_blank">POSitouch Business Intelligence Demo</a>
 
-[![POSitouch Business Intelligence Current Month](../../assets/img/POSitouch_dashboard_1.png)](https://datastudio.google.com/reporting/1hRA2c8I1OusYXlA9yfuPWlR6raJp0Cwr/)
+<a href="https://datastudio.google.com/reporting/1hRA2c8I1OusYXlA9yfuPWlR6raJp0Cwr/" target="_blank">
+<img src="../src/assets/img/POSitouch_dashboard_1.png" alt="POSitouch Business Intelligence Current Month">
+</a>
 
-[![POSitouch Business Intelligence YTD](../../assets/img/POSitouch_dashboard_2.png)](https://datastudio.google.com/reporting/10DcPMQ3tHwrsny2R4GXwNP-AsRCTjBJp/page/PP5X)
+<a href="https://datastudio.google.com/reporting/10DcPMQ3tHwrsny2R4GXwNP-AsRCTjBJp/page/PP5X" target="_blank">
+<img src="../src/assets/img/POSitouch_dashboard_2.png" alt="POSitouch Business Intelligence YTD">
+</a>
 
-[![POSitouch Business Intelligence Ticket Time](../../assets/img/POSitouch_dashboard_3.png)](https://datastudio.google.com/reporting/10DcPMQ3tHwrsny2R4GXwNP-AsRCTjBJp/page/MN6e)
+<a href="https://datastudio.google.com/reporting/10DcPMQ3tHwrsny2R4GXwNP-AsRCTjBJp/page/MN6e" target="_blank">
+<img src="../src/assets/img/POSitouch_dashboard_3.png" alt="POSitouch Business Intelligence Ticket Time">
+</a>
 
 ---
 
 # POSitouch Manuals and Resources
 
-*   [POSitouch DBF database structure & documentation download.](https://s3.amazonaws.com/factorbi/POSIDBF2.PDF)
-*   [POSitouch Inventory Control and Food Cost Manual with Inventory Reports.](https://s3.amazonaws.com/factorbi/POSitouch+Inventory+Control+and+Food+Cost+Manual+with+Inventory+Reports.pdf)
-*   [POSitouch Time and Attendance User Manual.](https://s3.amazonaws.com/factorbi/POSitouch+Time+and+Attendance+User+Manual.pdf)
+*   <a href="https://s3.amazonaws.com/factorbi/POSIDBF2.PDF" target="_blank">POSitouch DBF database structure & documentation download.</a>
+*   <a href="https://s3.amazonaws.com/factorbi/POSitouch+Inventory+Control+and+Food+Cost+Manual+with+Inventory+Reports.pdf" target="_blank">POSitouch Inventory Control and Food Cost Manual with Inventory Reports.</a>
+*   <a href="https://s3.amazonaws.com/factorbi/POSitouch+Time+and+Attendance+User+Manual.pdf" target="_blank">POSitouch Time and Attendance User Manual.</a>
 
 ---
 
 ## Contact Us
 
-*   Company page: [www.factorbi.com](https://www.factorbi.com/restaurants)
+<a href="https://www.factorbi.com/restaurants" target="_blank">www.factorbi.com</a>
 *   Email: [info@factorbi.com](mailto:info@factorbi.com)

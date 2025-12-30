@@ -54,7 +54,7 @@ Continually export dBase data to AWS Aurora MySQL.
 
 *   Use only to upload historic data. It optimizes upload by extracting and uploading one day at a time for a given date range.
 *   Always use along with [customData.json](/customdatajson) so you can configure the date field to use for each table.
-*   **NOTE:** For daily sync, instead of using Recursive Sync, dynamically parse a date range into customData.json ==> [Examples here.](https://github.com/factorbi/sync-examples/blob/master/positouch-json/customData-5days.json)
+*   **NOTE:** For daily sync, instead of using Recursive Sync, dynamically parse a date range into customData.json ==> <a href="https://github.com/factorbi/sync-examples/blob/master/positouch-json/customData-5days.json" target="_blank">Examples here.</a>
 *   More info about this feature see [Recursive Synchronization](/customdatajson#recursive-synchronization)
 
 ## Tenant
@@ -109,19 +109,19 @@ If you are going to synchronize two or more databases from the same Windows host
 
 # POSitouch Use Case
 
-[POSitouch](https://positouch.com/) Point of Sale creates DBF files at the end of the shift. You can daily export DBF data from several POSitouch restaurants and consolidate them on AWS at scale.
+<a href="https://positouch.com/" target="_blank">POSitouch</a> Point of Sale creates DBF files at the end of the shift. You can daily export DBF data from several POSitouch restaurants and consolidate them on AWS at scale.
 
-Make POSitouch reporting simple. Create KPI's, Dashboards and Business Intelligence analytics using [Google Data Studio](https://www.google.com/analytics/data-studio/) or [AWS QuickSight](https://aws.amazon.com/quicksight/).
+Make POSitouch reporting simple. Create KPI's, Dashboards and Business Intelligence analytics using <a href="https://www.google.com/analytics/data-studio/" target="_blank">Google Data Studio</a> or <a href="https://aws.amazon.com/quicksight/" target="_blank">AWS QuickSight</a>.
 
 ![POSitouch Data Consolidation](../../assets/img/POSitouch-data-consolidation.png)
 
 [More about POSitouch AWS integration here.](/positouch)
 
-[POSitouch DBF database structure & documentation download.](https://s3.amazonaws.com/factorbi/POSIDBF2.PDF)
+<a href="https://s3.amazonaws.com/factorbi/POSIDBF2.PDF" target="_blank">POSitouch DBF database structure & documentation download.</a>
 
-[POSitouch Inventory Control and Food Cost Manual with Inventory Reports.](https://s3.amazonaws.com/factorbi/POSitouch+Inventory+Control+and+Food+Cost+Manual+with+Inventory+Reports.pdf)
+<a href="https://s3.amazonaws.com/factorbi/POSitouch+Inventory+Control+and+Food+Cost+Manual+with+Inventory+Reports.pdf" target="_blank">POSitouch Inventory Control and Food Cost Manual with Inventory Reports.</a>
 
-[POSitouch Time and Attendance User Manual.](https://s3.amazonaws.com/factorbi/POSitouch+Time+and+Attendance+User+Manual.pdf)
+<a href="https://s3.amazonaws.com/factorbi/POSitouch+Time+and+Attendance+User+Manual.pdf" target="_blank">POSitouch Time and Attendance User Manual.</a>
 
 > Keywords: POSIDBF | Positouch database files | Positouch DBF files | Positouch database tables | merge multiple sites | merge locations
 

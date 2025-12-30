@@ -15,25 +15,31 @@ Integra también tu ERP y operaciones de CEDIS y WMS con la información que se 
 
 Escríbemos y te ayudamos en lo que necesitas: [info@factorbi.com](mailto:info@factorbi.com)
 
-[www.factorbi.com](https://www.factorbi.com/restaurants?lang=es)
+<a href="https://www.factorbi.com/restaurants?lang=es" target="_blank">www.factorbi.com</a>
 
 ---
 
 ## Demo Business Intelligence
 
-[Tablero de Ventas Soft Restaurant](https://datastudio.google.com/reporting/1hRA2c8I1OusYXlA9yfuPWlR6raJp0Cwr/)
+<a href="https://datastudio.google.com/reporting/1hRA2c8I1OusYXlA9yfuPWlR6raJp0Cwr/" target="_blank">Tablero de Ventas Soft Restaurant</a>
 
-[![Tablero de Ventas Soft Restaurant](../../assets/img/Tablero_Soft_Restaurant_1.png)](https://datastudio.google.com/reporting/1hRA2c8I1OusYXlA9yfuPWlR6raJp0Cwr/)
+<a href="https://datastudio.google.com/reporting/1hRA2c8I1OusYXlA9yfuPWlR6raJp0Cwr/" target="_blank">
+<img src="../src/assets/img/Tablero_Soft_Restaurant_1.png" alt="Tablero de Ventas Soft Restaurant">
+</a>
 
-[![Tablero de Ventas Soft Restaurant Resumen Anual](../../assets/img/Tablero_Soft_Restaurant_2.png)](https://datastudio.google.com/reporting/1hRA2c8I1OusYXlA9yfuPWlR6raJp0Cwr/page/PP5X)
+<a href="https://datastudio.google.com/reporting/1hRA2c8I1OusYXlA9yfuPWlR6raJp0Cwr/page/PP5X" target="_blank">
+<img src="../src/assets/img/Tablero_Soft_Restaurant_2.png" alt="Tablero de Ventas Soft Restaurant Resumen Anual">
+</a>
 
-[![Tablero de Ventas Soft Restaurant Comparativo por Local](../../assets/img/Tablero_Soft_Restaurant_3.png)](https://datastudio.google.com/reporting/1hRA2c8I1OusYXlA9yfuPWlR6raJp0Cwr/page/5mpY)
+<a href="https://datastudio.google.com/reporting/1hRA2c8I1OusYXlA9yfuPWlR6raJp0Cwr/page/5mpY" target="_blank">
+<img src="../src/assets/img/Tablero_Soft_Restaurant_3.png" alt="Tablero de Ventas Soft Restaurant Comparativo por Local">
+</a>
 
 ---
 
 ## Excel Tablas Soft Restaurant
 
-<a href="http://bit.ly/tablas_soft_restaurant" target="_blank"><img alt="Excel tablas Soft Restaurant." src="../../assets/img/excel-small.png" /></a> Abre aquí [Excel tablas Soft Restaurant.](http://bit.ly/tablas_soft_restaurant)
+<a href="http://bit.ly/tablas_soft_restaurant" target="_blank"><img alt="Excel tablas Soft Restaurant." src="../src/assets/img/excel-small.png" /></a> Abre aquí <a href="http://bit.ly/tablas_soft_restaurant" target="_blank">Excel tablas Soft Restaurant.</a>
 
 ---
 

@@ -18,7 +18,7 @@ IMPORTANT NOTICE: If you are planning to use the following AWS resources for pro
 Sign in with the **root** AWS account.
 
 1.  Upper right corner of your AWS console, click your account name (or follow next link).
-2.  [My Security Credentials.](https://console.aws.amazon.com/iam/home#/security_credential)
+2.  <a href="https://console.aws.amazon.com/iam/home#/security_credential" target="_blank">My Security Credentials.</a>
 3.  Click *Continue to Security Credentials* if dialog appears.
 4.  Expand Account Identifiers.
 5.  Copy AWS Account ID (12-digit) and Canonical User ID (64-digit).
@@ -31,9 +31,7 @@ Sign in with the **root** AWS account.
 
 ## IAM Policy to Grant Access to S3
 
-From this point on you need the Bucket name that we provided over email on the previous step.
-
-1.  Open [IAM Console.](https://console.aws.amazon.com/iam/home?#home)
+<a href="https://console.aws.amazon.com/iam/home?#home" target="_blank">IAM Console.</a>
 2.  In the left navigation pane choose **Policies.**
 3.  **Create policy** blue button.
 4.  Click **JSON** tab.
@@ -67,13 +65,13 @@ From this point on you need the Bucket name that we provided over email on the p
     > Name: <span style="color:red">`Connection to Factor BI bucket`</span>
 9.  Click **Create policy** blue button.
 
-Further information from AWS go to: [Allowing Amazon Aurora to Access Amazon S3 Resources](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraMySQL.Integrating.Authorizing.IAM.S3CreatePolicy.html)
+Further information from AWS go to: <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraMySQL.Integrating.Authorizing.IAM.S3CreatePolicy.html" target="_blank">Allowing Amazon Aurora to Access Amazon S3 Resources</a>
 
 ---
 
 ## IAM Role to Load Data From S3
 
-1.  Open [IAM Console.](https://console.aws.amazon.com/iam/home?#home)
+1.  Open <a href="https://console.aws.amazon.com/iam/home?#home" target="_blank">IAM Console.</a>
 2.  In the left navigation pane choose **Roles.**
 3.  **Create role** blue button.
 4.  Choose **AWS service,** then **RDS**
@@ -96,7 +94,7 @@ Further information from AWS go to: [Allowing Amazon Aurora to Access Amazon S3 
 12. Select <span style="color:red">`auroraToS3Policy`</span> and click **Attach policy** blue button.
 13. Copy **Role ARN** string and save it for further use. It may look like this: <span style="color:red">`arn:aws:iam::123456789012:role/RDSLoadFromS3`</span>
 
-Further information from AWS go to: [Creating an IAM Role to Allow Amazon Aurora to Access AWS Services](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraMySQL.Integrating.Authorizing.IAM.CreateRole.html)
+Further information from AWS go to: <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/AuroraMySQL.Integrating.Authorizing.IAM.CreateRole.html" target="_blank">Creating an IAM Role to Allow Amazon Aurora to Access AWS Services</a>
 
 ---
 
@@ -104,7 +102,7 @@ Further information from AWS go to: [Creating an IAM Role to Allow Amazon Aurora
 
 This step will provide access to files created by the <span style="color:red">`SELECT INTO OUTFILE S3`</span> command.
 
-1.  Open [IAM console.](https://console.aws.amazon.com/iam/home#/users)
+1.  Open <a href="https://console.aws.amazon.com/iam/home#/users" target="_blank">IAM console.</a>
 2.  In the left navigation pane choose **Users.**
 3.  Click **Add user** blue button, upper left corner.
 4.  User name: <span style="color:red">`auroraToS3`</span>
@@ -127,16 +125,16 @@ This step will provide access to files created by the <span style="color:red">`S
 ## Closest AWS Region
 
 1.  Click the following image and hit **HTTP Ping** and look for the lowest latency.
-    > **<a href="http://cloudping.info" target="_blank"><img alt="Closest AWS Region to My Location" src="../../assets/img/CloudPing.png" /></a>**
+    > **<a href="http://cloudping.info" target="_blank"><img alt="Closest AWS Region to My Location" src="../src/assets/img/CloudPing.png" /></a>**
 2.  Try several times and at different times of the day.
-3.  Login to your [AWS Account Console Home](https://console.aws.amazon.com/console/home) and select the closest region to your location.
+3.  Login to your <a href="https://console.aws.amazon.com/console/home" target="_blank">AWS Account Console Home</a> and select the closest region to your location.
     > ![AWS Select Region](../../assets/img/aws-select-region.png)
 
 ---
 
 ## Cluster Parameter Group
 
-1.  Open [RDS console.](https://console.aws.amazon.com/rds/)
+<a href="https://console.aws.amazon.com/rds/" target="_blank">RDS console.</a>
 2.  On left pane go to **Parameter groups.**
 3.  Click **Create parameter group** orange button on top.
     > Parameter group family: <span style="color:red">`aurora-mysql5.7`</span>
@@ -256,7 +254,7 @@ Further information from AWS go to: [Associating an IAM Role with a DB Cluster](
 12. Click **Save** blue button.
 13. Click **Actions \ Edit outbound rules**
 14. Verify if Type: <span style="color:red">`All traffic`</span>, Destination: <span style="color:red">`Custom`</span> and value: <span style="color:red">`0.0.0.0/0`</span> is already set, if not, add the rule.
-15. Go back to [RDS console](https://console.aws.amazon.com/rds/), select your instance (Writer Role), click **Actions \ Reboot**, confirm with orange button on the right.
+<a href="https://console.aws.amazon.com/rds/" target="_blank">RDS console</a>
 16. Wait until **Status** is <span style="color:red">`Available`</span>
     > ![RDS Instance status available](../../assets/img/Instance_StatusAvailable.png)
 17. Click your DB Instance (Writer Role), Connectivity, Security, and check if **VPS security groups** are <span style="color:red">`( active )`</span>
