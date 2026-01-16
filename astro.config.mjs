@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { ion } from "starlight-ion-theme";
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,7 +11,7 @@ export default defineConfig({
 			logo: {
 				src: '/src/assets/factorbi_logo.png',
 			},
-			favicon: '/public/favicon.ico',
+			favicon: '/favicon.ico',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/factorbi/factorbi.github.io' }],
 			customCss: ['/src/assets/css/custom.css', '/src/assets/fonts/fontawesome-webfont.woff'],
 			sidebar: [
@@ -43,6 +44,16 @@ export default defineConfig({
 					]
 				}
 			],
+			plugins: [ion({
+				footer: {
+					text: '© 2016 - 2019, Factor BI, S.A. de C.V. All rights reserved.',
+					links: [
+						{ text: 'info@factorbi.com', href: 'mailto:info@factorbi.com' },
+						{ text: 'FactorBi page', href: 'https://www.factorbi.com', newTab: true },
+					],
+				},
+				icons: undefined
+			})],
 		}),
 	],
 });
