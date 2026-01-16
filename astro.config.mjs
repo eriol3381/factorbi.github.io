@@ -7,8 +7,12 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Factor BI - Documentation',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
-			customCss: ['/src/assets/css/custom.css'],
+			logo: {
+				src: '/src/assets/factorbi_logo.png',
+			},
+			favicon: '/public/favicon.ico',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/factorbi/factorbi.github.io' }],
+			customCss: ['/src/assets/css/custom.css', '/src/assets/fonts/fontawesome-webfont.woff'],
 			sidebar: [
 				{
 					label: 'Documentation',

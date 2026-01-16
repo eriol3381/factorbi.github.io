@@ -5,36 +5,51 @@ template: splash # Remove or comment out this line to display the site sidebar o
 hero:
   tagline: Bipost is database synchronization & ETL tool for continually moving data from on-premises to AWS Aurora MySQL and back forth.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/factorbi_logo.png
   actions:
     - text: Get started
       link: /home
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import aspelImage from '../../assets/img/Aspel.png';
+import microsipImage from '../../assets/img/Microsip.png';
+import softRestaurantImage from '../../assets/img/Soft-Restaurant.png';
+import positouchImage from '../../assets/img/POSitouch-logo.png';
+import intelisisImage from '../../assets/img/Intelisis.png';
 
 ## Next steps
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+<CardGrid>
+	<Card>
+		<a href="https://www.aspelsoluciones.com/aspel-sae" target="_blank">
+		<img src={aspelImage.src} alt="Logo de Aspel SAE" />
+		</a>
+		El sistema Aspel SAE es una herramienta integral diseñada para pequeños, medianos y grandes negocios, con o sin sucursales, que necesitan un control total de sus ventas, compras e inventarios.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card>
+		<a href="https://www.microsip.com/" target="_blank">
+		<img src={microsipImage.src} alt="Logo de Microsip" />
+		</a>
+		Microsip es un sistema administrativo o ERP, desarrollado para controlar los procesos administrativos y operativos de las PyMEs mexicanas. 
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card>
+		<a href="https://www.intelisis.com/" target="_blank">
+		<img src={intelisisImage.src} alt="Logo de Intelisis" />
+		</a>
+		Intelisis ERP es una solución de software de gestión de relaciones con clientes (CRM) diseñada específicamente para pequeñas y medianas empresas en México
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card>
+		<a href="https://softrestaurant.com/" target="_blank">
+		<img src={softRestaurantImage.src} alt="Logo de Soft Restaurant" />
+		</a>
+		Soft Restaurant es un software especializado en la administración de restaurantes pero también útil para cualquier negocio de bebidas o alimentos, te ayuda a controlar ventas, inventarios, pedidos, seguridad, facturación electrónica y más todo desde una sola plataforma.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in <a href="https://starlight.astro.build/" target="_blank">the Starlight Docs</a>.
+	<Card>
+		<a href="https://retailsystemsinc.com/positouch-pos" target="_blank">
+		<img src={positouchImage.src} alt="Logo de Positouch" />
+		</a>
+		POSitouch es el sistema POS más rico en características de la industria de servicio de alimentos. Se encarga de todas sus necesidades de POS ya sea en Servicio de mesa o Servicio rápido, Clubes de campo, Cafeterías, Entrega, Arenas o Estadios
 	</Card>
 </CardGrid>
